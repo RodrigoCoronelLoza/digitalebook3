@@ -5,10 +5,9 @@
   --backgroud: #fcd7a7;
   --hoverbuttons1: #030d7b;
   --hoverbuttons0: #ca05fa;
-  --hoverbuttons2:#ffc06e;
+  --hoverbuttons2: #ffc06e;
   --auxiliar2: #7e64dc;
   --auxiliar1: #fdffb1;
-  
 
   --primary2: #ffc06e;
   --secondary2: #c06190;
@@ -16,7 +15,6 @@
   --secondary3: #2f67e1;
   --auxiliar3: #7000e0;
   --hoverbuttons12: #5da7e1;
-  
 }
 html {
   margin: 0;
@@ -121,11 +119,7 @@ body {
 
 .nav-buttons:hover {
   /* background-color: var(--hoverbuttons1); */
-  background-image: linear-gradient(
-    to right,
-    var(--auxiliar),
-    var(--primary2)
-  );
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary2));
 }
 
 #comenzar-button {
@@ -151,11 +145,7 @@ body {
 }
 
 .jump-buttons:hover {
-  background-image: linear-gradient(
-    to right,
-    var(--auxiliar2),
-    var(--hoverbuttons2)
-  );
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary2));
 }
 
 #home-button {
@@ -255,13 +245,13 @@ body {
   /* border: 1px solid green; */
 }
 
-hr { 
+hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .Clayout #Cindex-buttons {
@@ -1599,7 +1589,6 @@ hr {
   width: 100%;
 }
 
-
 /* Barra lateral del indice */
 
 #index-permanent {
@@ -1614,7 +1603,7 @@ hr {
 
 .index-buttons {
   background-color: #fcd7a7;
-  font-size: 1.0vw;
+  font-size: 1vw;
   margin: 0;
   border: none;
   height: 100%;
@@ -1624,7 +1613,7 @@ hr {
 }
 .index-buttons:hover {
   /* background-color: var(--primary); */
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
   color: white;
 }
 
