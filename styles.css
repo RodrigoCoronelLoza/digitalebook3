@@ -1594,12 +1594,40 @@ hr {
 #index-permanent {
   height: 101%;
   width: 16%;
-  background-color: #ffc06e;
+  /* background-color: #ffc06e; */
+}
+.index-desp {
+  padding-left: 0;
+}
+.list-item {
+  list-style-type: none;
+  overflow: hidden;
+}
+#show1 {
+  list-style-type: none;
+  padding-left: 0;
+  /* border-left: 2px solid black; */
+  transition: height 0.4s;
+  height: 0;
+}
+#show2 {
+  list-style-type: none;
+  padding-left: 0;
+  /* border-left: 2px solid black; */
+  transition: height 0.4s;
+  height: 0;
+}
+#show3 {
+  list-style-type: none;
+  padding-left: 0;
+  /* border-left: 2px solid black; */
+  transition: height 0.4s;
+  height: 0;
+}
+.list-button {
+  height: 3em;
 }
 
-.index-element-container {
-  height: 4.3%;
-}
 
 .index-buttons {
   background-color: #fcd7a7;
