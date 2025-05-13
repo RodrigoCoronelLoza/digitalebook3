@@ -1628,9 +1628,10 @@ hr {
   height: 3em;
 }
 
-
 .index-buttons {
-  background-color: #fcd7a7;
+  /* background-color: #fcd7a7; */
+  /* background-image: url("images/CHA_10.jpeg"); */
+  background-color: white;
   font-size: 1vw;
   margin: 0;
   border: none;
