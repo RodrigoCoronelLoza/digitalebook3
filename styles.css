@@ -1,20 +1,22 @@
 :root {
-  --primary: #030d7b;
-  --auxiliar: #087b35;
+  --primary: #2a9144;
+  --auxiliar: #1cae81;
   --secondary: #7aeba6;
-  --backgroud: #fcd7a7;
-  --hoverbuttons1: #030d7b;
+  --backgroud: #e9f4ec;
+  --hoverbuttons1: #1cae81;
   --hoverbuttons0: #ca05fa;
-  --hoverbuttons2: #ffc06e;
-  --auxiliar2: #7e64dc;
-  --auxiliar1: #fdffb1;
+  --hoverbuttons2:#1cae81;
+  --auxiliar2: #7d8e90;
+  --auxiliar1: #e9f4ec;
+  
 
-  --primary2: #ffc06e;
+  --primary2: #7d8e90;
   --secondary2: #c06190;
   --backgroud2: #cacce5;
-  --secondary3: #2f67e1;
+  --secondary3: #1cae81;
   --auxiliar3: #7000e0;
   --hoverbuttons12: #5da7e1;
+  
 }
 html {
   margin: 0;
@@ -1498,7 +1500,6 @@ hr {
   width: 85%;
   background-image: url("images/CHA_10.jpeg");
   background-size: 100% 100%;
-  border: 1px solid red;
 }
 .Playout h1 {
   margin: 0;
@@ -1512,7 +1513,6 @@ hr {
 .Playout #Playout-container #Pbutton {
   width: 5%;
   height: 100%;
-  border: 1px solid green;
 }
 
 .Playout #Playout-container #Pbutton #Pmodals-container {
@@ -1577,7 +1577,6 @@ hr {
 
 .Playout #Pimage-container {
   /* background-color: var(--primary); */
-  border: 1px solid orange;
   width: 95%;
   height: 90%;
   padding-left: 3%;

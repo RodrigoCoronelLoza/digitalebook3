@@ -667,7 +667,7 @@ const handleDomCLick = (event) => {
   } else if (classIdentifier === "para") {
     let targetIdButton = "buttonParag" + currentParagNumber;
     const pointedButton = document.getElementById(targetIdButton);
-    pointedButton.style.backgroundColor = " #030d7b";
+    pointedButton.style.backgroundColor = " #2a9144";
   }
 };
 
@@ -1294,7 +1294,7 @@ function masterRender() {
   const pointedButton = document.getElementById("buttonParag1");
   // console.log(currentParagNumber);
   if (pointedButton && currentParagNumber === 1) {
-    pointedButton.style.backgroundColor = "#030d7b";
+    pointedButton.style.backgroundColor = "#2a9144";
   }
 }
 masterRender();
