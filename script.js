@@ -935,8 +935,8 @@ function ELayOutGenerator(images, page, buttonName, buttonsPageNumber) {
         <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][0]})">${buttonName[page][0]}</button></div>
         <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][1]})">${buttonName[page][1]}</button></div>
         <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][2]})">${buttonName[page][2]}</button></div>
-        <div class="button-index-container"><button class="jump-buttons"onclick="setPage(${buttonsPageNumber[page][3]})">${buttonName[page][3]}</</button></div>
-        <div class="button-index-container"><button class="jump-buttons"onclick="setPage(${buttonsPageNumber[page][4]})">${buttonName[page][4]}</</button></div>
+        <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][3]})">${buttonName[page][3]}</button></div>
+        <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][4]})">${buttonName[page][4]}</button></div>
       </div>
     </div>
   </div>`;
