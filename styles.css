@@ -5,10 +5,9 @@
   --backgroud: #e9f4ec;
   --hoverbuttons1: #1cae81;
   --hoverbuttons0: #ca05fa;
-  --hoverbuttons2:#1cae81;
+  --hoverbuttons2: #1cae81;
   --auxiliar2: #7d8e90;
   --auxiliar1: #e9f4ec;
-  
 
   --primary2: #7d8e90;
   --secondary2: #c06190;
@@ -16,7 +15,6 @@
   --secondary3: #1cae81;
   --auxiliar3: #7000e0;
   --hoverbuttons12: #5da7e1;
-  
 }
 html {
   margin: 0;
@@ -471,9 +469,8 @@ hr {
   #index-button-container
   #index-buttons
   .jump-buttons:hover {
-    background-image: linear-gradient(to right, var(--auxiliar), var(--primary2));;
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary2));
 }
-
 
 /* Plantilla F */
 
@@ -717,7 +714,11 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0 {
-  background-image: linear-gradient(to right, var(--primary), var(--hoverbuttons1));
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -728,7 +729,11 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1 {
-  background-image: linear-gradient(to right, var(--primary), var(--hoverbuttons1));
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -739,7 +744,11 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2 {
-  background-image: linear-gradient(to right, var(--primary), var(--hoverbuttons1));
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -750,7 +759,11 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3 {
-  background-image: linear-gradient(to right, var(--primary), var(--hoverbuttons1));
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -761,7 +774,11 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
-  background-image: linear-gradient(to right, var(--primary), var(--hoverbuttons1));
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--hoverbuttons1)
+  );
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -1648,16 +1665,24 @@ hr {
 /* Barra lateral del indice */
 
 #index-permanent {
+   font-size: 1.1vmax;
   height: 101%;
   width: 16%;
   /* background-color: #ffc06e; */
 }
+/* .index-desp {
+  height: 100%;
+} */
+/* .list-item{
+  min-height: 3%;
+} */
 .index-desp {
   padding-left: 0;
 }
 .list-item {
   list-style-type: none;
   overflow: hidden;
+  /* border: solid green 1px */
 }
 #show1 {
   list-style-type: none;
@@ -1681,7 +1706,7 @@ hr {
   height: 0;
 }
 .list-button {
-  height: 3em;
+  height: 1.5em;
 }
 
 .index-buttons {
