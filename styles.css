@@ -9,7 +9,7 @@
   --auxiliar2: #7d8e90;
   --auxiliar1: #e9f4ec;
 
-  --primary2: #7d8e90;
+  --primary2: #737373;
   --secondary2: #c06190;
   --backgroud2: #cacce5;
   --secondary3: #1cae81;
@@ -716,8 +716,8 @@ hr {
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0 {
   background-image: linear-gradient(
     to right,
-    var(--primary),
-    var(--hoverbuttons1)
+    var(--secondary),
+    var(--primary)
   );
   color: white;
   border-radius: 50%;
@@ -731,8 +731,8 @@ hr {
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1 {
   background-image: linear-gradient(
     to right,
-    var(--primary),
-    var(--hoverbuttons1)
+    var(--secondary),
+    var(--primary)
   );
   color: white;
   border-radius: 50%;
@@ -746,8 +746,8 @@ hr {
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2 {
   background-image: linear-gradient(
     to right,
-    var(--primary),
-    var(--hoverbuttons1)
+    var(--secondary),
+    var(--primary)
   );
   color: white;
   border-radius: 50%;
@@ -761,8 +761,8 @@ hr {
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3 {
   background-image: linear-gradient(
     to right,
-    var(--primary),
-    var(--hoverbuttons1)
+    var(--secondary),
+    var(--primary)
   );
   color: white;
   border-radius: 50%;
@@ -776,8 +776,8 @@ hr {
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
   background-image: linear-gradient(
     to right,
-    var(--primary),
-    var(--hoverbuttons1)
+    var(--secondary),
+    var(--primary)
   );
   color: white;
   border-radius: 50%;
@@ -829,7 +829,7 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button5 {
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary2));
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -840,7 +840,7 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button6 {
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary2));
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -851,7 +851,7 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button7 {
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary2));
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -862,7 +862,7 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button8 {
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary2));
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -873,7 +873,7 @@ hr {
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button9 {
-  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary2));
   color: white;
   border-radius: 50%;
   height: 100%;
@@ -1665,17 +1665,10 @@ hr {
 /* Barra lateral del indice */
 
 #index-permanent {
-   font-size: 1.2vw;
+  font-size: 1.5vmax;
   height: 101%;
   width: 16%;
-  /* background-color: #ffc06e; */
 }
-/* .index-desp {
-  height: 100%;
-} */
-/* .list-item{
-  min-height: 3%;
-} */
 .index-desp {
   padding-left: 0;
 }
@@ -1710,8 +1703,6 @@ hr {
 }
 
 .index-buttons {
-  /* background-color: #fcd7a7; */
-  /* background-image: url("images/CHA_10.jpeg"); */
   background-color: white;
   font-size: 1vw;
   margin: 0;
