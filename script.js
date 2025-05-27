@@ -51,7 +51,6 @@ function renderPage() {
 }
 //Poner color al indice de la barra lateral
 function colorButton() {
-  // console.log(currentPage);
   const allButtons = document.getElementById("index-permanent");
   const indexButton1 = document.getElementById("index-button1");
   const indexButton2 = document.getElementById("index-button2");
@@ -75,7 +74,6 @@ function colorButton() {
   const indexButton20 = document.getElementById("index-button20");
   const indexButton21 = document.getElementById("index-button21");
   const indexButton22 = document.getElementById("index-button22");
-  // const indexButton23 = document.getElementById("index-button23");
 
   if (currentPage >= 0 && currentPage <= 4) {
     indexButton1.style.fontWeight = "bold";
@@ -100,7 +98,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 5 && currentPage <= 22) {
     indexButton2.style.fontWeight = "bold";
@@ -125,7 +122,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 6) {
     indexButton3.style.fontWeight = "bold";
@@ -150,7 +146,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 7 && currentPage <= 12) {
     indexButton4.style.fontWeight = "bold";
@@ -175,7 +170,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 13 && currentPage <= 17) {
     indexButton5.style.fontWeight = "bold";
@@ -200,7 +194,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 18 && currentPage <= 21) {
     indexButton6.style.fontWeight = "bold";
@@ -225,7 +218,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 22) {
     indexButton7.style.fontWeight = "bold";
@@ -250,7 +242,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 23 && currentPage <= 44) {
     indexButton8.style.fontWeight = "bold";
@@ -275,7 +266,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 24) {
     indexButton9.style.fontWeight = "bold";
@@ -300,7 +290,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 25 && currentPage <= 32) {
     indexButton10.style.fontWeight = "bold";
@@ -325,7 +314,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 33 && currentPage <= 35) {
     indexButton11.style.fontWeight = "bold";
@@ -350,7 +338,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 36 && currentPage <= 42) {
     indexButton12.style.fontWeight = "bold";
@@ -375,7 +362,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 43) {
     indexButton13.style.fontWeight = "bold";
@@ -400,7 +386,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 44 && currentPage <= 61) {
     indexButton14.style.fontWeight = "bold";
@@ -425,7 +410,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 45) {
     indexButton15.style.fontWeight = "bold";
@@ -450,7 +434,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 46 && currentPage <= 52) {
     indexButton16.style.fontWeight = "bold";
@@ -475,7 +458,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 53 && currentPage <= 57) {
     indexButton17.style.fontWeight = "bold";
@@ -500,7 +482,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 58 && currentPage <= 60) {
     indexButton18.style.fontWeight = "bold";
@@ -525,7 +506,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 61) {
     indexButton19.style.fontWeight = "bold";
@@ -550,7 +530,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 62) {
     indexButton20.style.fontWeight = "bold";
@@ -575,7 +554,6 @@ function colorButton() {
     indexButton1.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage >= 63 && currentPage <= 66) {
     indexButton21.style.fontWeight = "bold";
@@ -600,7 +578,6 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
   if (currentPage === 67) {
     indexButton22.style.fontWeight = "bold";
@@ -625,33 +602,7 @@ function colorButton() {
     indexButton20.style.fontWeight = "normal";
     indexButton21.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
-    // indexButton23.style.fontWeight = "normal";
   }
-  // } else if (currentPage === 49) {
-  //   indexButton23.style.fontWeight = "bold";
-  //   indexButton2.style.fontWeight = "normal";
-  //   indexButton3.style.fontWeight = "normal";
-  //   indexButton4.style.fontWeight = "normal";
-  //   indexButton5.style.fontWeight = "normal";
-  //   indexButton6.style.fontWeight = "normal";
-  //   indexButton7.style.fontWeight = "normal";
-  //   indexButton8.style.fontWeight = "normal";
-  //   indexButton9.style.fontWeight = "normal";
-  //   indexButton10.style.fontWeight = "normal";
-  //   indexButton11.style.fontWeight = "normal";
-  //   indexButton12.style.fontWeight = "normal";
-  //   indexButton13.style.fontWeight = "normal";
-  //   indexButton14.style.fontWeight = "normal";
-  //   indexButton15.style.fontWeight = "normal";
-  //   indexButton16.style.fontWeight = "normal";
-  //   indexButton17.style.fontWeight = "normal";
-  //   indexButton18.style.fontWeight = "normal";
-  //   indexButton19.style.fontWeight = "normal";
-  //   indexButton20.style.fontWeight = "normal";
-  //   indexButton21.style.fontWeight = "normal";
-  //   indexButton22.style.fontWeight = "normal";
-  //   indexButton1.style.fontWeight = "normal";
-  // }
 }
 //Rastrear el click en en DOM dinamico
 const handleDomCLick = (event) => {
@@ -786,8 +737,6 @@ function createStructure(
     content = MLayOutGenerator(titles, text, images, page, buttonName);
   } else if (currentLayout === "Nlayout") {
     content = NLayOutGenerator(titles, text, page, popUp);
-  } else if (currentLayout === "Wlayout") {
-    content = WLayOutGenerator(titles, text, page, popUp);
   } else if (currentLayout === "Olayout") {
     content = OLayOutGenerator(titles, images, page);
   } else if (currentLayout === "Playout") {
@@ -866,11 +815,7 @@ function CLayOutGenerator(titles, text, page) {
         </div>
         <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(43)">&#9674 Actividad sugerida</button> 
-        </div>
-        
-        
-        
-        
+        </div>        
       </div>
        <div id="column3">
        <div class="button-index-container">
@@ -1164,31 +1109,6 @@ function NLayOutGenerator(title, text, page, popUp) {
   </div>`;
 }
 
-function WLayOutGenerator(titles, text, page, popUp) {
-  return `<h2>${
-    titles[page]
-  }</h2> <button data-modal-target="#modal0" class="open-button0">Open Modal</button>
-    <div class="modal" id="modal0">
-      <div class="modal-header">
-        <div class="title">${modalExtractor(popUp, page, "title", 0)}</div>
-        <button data-close-button class="close-button">&times;</button>
-      </div>
-      <div class="modal-body">
-        ${modalExtractor(popUp, page, "contentModal", 0)}
-      </div>
-    </div>
-    <button data-modal-target="#modal1" class="open-button1">Open Modal</button>
-    <div class="modal" id="modal1">
-      <div class="modal-header">
-        <div class="title">${modalExtractor(popUp, page, "title", 1)}</div>
-        <button data-close-button class="close-button">&times;</button>
-      </div>
-      <div class="modal-body">
-        ${modalExtractor(popUp, page, "contentModal", 1)}
-      </div>
-    </div>`;
-}
-
 // Plantilla O
 function OLayOutGenerator(titles, images, page) {
   return ` 
@@ -1292,7 +1212,6 @@ function closeModal(modal) {
 function masterRender() {
   renderPage();
   const pointedButton = document.getElementById("buttonParag1");
-  // console.log(currentParagNumber);
   if (pointedButton && currentParagNumber === 1) {
     pointedButton.style.backgroundColor = "#2a9144";
   }
